@@ -169,7 +169,7 @@ class BehemothBot {
             this.save();
         }, this.save_interval_ms);
         
-        this.Client = new DiscordClient("NzU4MzU3NDYzMTg2OTMxNzg2.X2txbA.SUaGnPNUDe8kQZrMrdRISroLDiE");
+        this.Client = new DiscordClient(this.token);
         this.Client.on("message", this.message_callback);
     }
 }
