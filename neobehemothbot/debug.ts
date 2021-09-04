@@ -529,30 +529,4 @@ class DiscordClient {
     }
 }
 
-
-const client = new DiscordClient("NzU4MzU3NDYzMTg2OTMxNzg2.X2txbA.8zT9jWeHkj0jT__nBBpgZ9F4vsQ");
-
-client.on("message", (data) => {
-    client.typing.start();
-    if (data.data.content === "!!!") {
-        client.intern({
-            "op": 3,
-            "d": {
-            "timestamp": {
-                "start": 10020202028444
-            },
-              "since": 91879201,
-              "activities": [{
-                "name": "BehemothBotV2.07 LAUNCHED",
-                "type": 0,
-              }],
-              "status": "online",
-              "afk": false
-            }
-          })
-    }
-})
-
-
-
 export default DiscordClient;
