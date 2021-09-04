@@ -1,0 +1,8 @@
+{
+    "run_user_bot": true,
+    "output_channel": "", 
+
+    "bot_token": "",
+    "user_listener_token": "",
+    "bot_owner_id": ""
+}
